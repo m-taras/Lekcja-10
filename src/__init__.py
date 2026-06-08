@@ -35,6 +35,14 @@ Data is loaded from JSON files in the ``data/`` directory, then transformed into
 typed model instances. This keeps business operations explicit and easier to
 test than working with raw dictionaries.
 
+Args:
+----
+    year (int): The year for which to calculate the balance.
+
+Returns:
+-------
+    float: The annual balance.
+
 Highlights
 ----------
 - Strongly typed domain models for safer data handling.
@@ -45,5 +53,6 @@ Highlights
 Authors
 ------
 Łukasz Kułacz - initial implementation, testing, documentation
+Marta Taras - debugging, documentation, testing
 
 """

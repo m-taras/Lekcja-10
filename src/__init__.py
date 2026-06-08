@@ -43,6 +43,11 @@ Returns:
 -------
     float: The annual balance.
 
+Example:
+-------
+    >>> manager = Manager()
+    >>> manager.calculate_annual_balance(year=2023)
+
 Highlights
 ----------
 - Strongly typed domain models for safer data handling.
